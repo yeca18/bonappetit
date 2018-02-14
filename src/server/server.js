@@ -20,7 +20,7 @@ app.get('/companies', (req, res) => {
   res.json({ name: req.query.name })
 })
 
-app.get('/myself', (req, res) => {
+app.get('/brayan', (req, res) => {
   res.json({ name: 'Brayan', username: 'bingtrav'})
 })
 
