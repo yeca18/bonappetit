@@ -1,0 +1,28 @@
+{
+  "name": "bonappetit",
+  "version": "1.0.0",
+  "description": "A restaurant app in React",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chicus12/bonappetit.git"
+  },
+  "keywords": [
+    "react",
+    "webpack",
+    "node"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chicus12/bonappetit/issues"
+  },
+  "homepage": "https://github.com/chicus12/bonappetit#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
