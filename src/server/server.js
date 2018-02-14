@@ -1,9 +1,10 @@
 const express = require('express')
+const { join } = require('path')
 
 const app = express()
 
 app.get('/', (req, res) => {
-  res.json({ hello: 'World' })
+  res.sendFile(join(__dirname, '..', '..', '/public/index.html'))
 })
 
 app.get('/users/:id', (req, res) => {
