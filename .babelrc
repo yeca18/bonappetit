@@ -1,0 +1,26 @@
+{
+  "presets": [
+    [
+      "es2015",
+      {
+        "modules": false
+      }
+    ],
+    "stage-2",
+    "react"
+  ],
+  "ignore": [
+    "public/*"
+  ],
+  "plugins": [
+    "babel-root-import",
+    [
+      "transform-runtime",
+      {
+        "polyfill": false,
+        "regenerator": true
+      }
+    ],
+    "styled-jsx/babel"
+  ]
+}
