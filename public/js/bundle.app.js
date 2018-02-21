@@ -26646,18 +26646,32 @@ var StorePicker = function (_Component) {
   __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_inherits___default()(StorePicker, _Component);
 
   function StorePicker() {
+    var _ref;
+
+    var _temp, _this, _ret;
+
     __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_classCallCheck___default()(this, StorePicker);
 
-    return __WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_possibleConstructorReturn___default()(this, (StorePicker.__proto__ || Object.getPrototypeOf(StorePicker)).apply(this, arguments));
+    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    return _ret = (_temp = (_this = __WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_possibleConstructorReturn___default()(this, (_ref = StorePicker.__proto__ || Object.getPrototypeOf(StorePicker)).call.apply(_ref, [this].concat(args))), _this), _this.goToStore = function () {
+      console.log('Valor', _this.storeInput.value);
+      _this.props.history.push('/store/' + _this.storeInput.value);
+    }, _temp), __WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_possibleConstructorReturn___default()(_this, _ret);
   }
+  // constructor() {
+  //   super()
+  //   this.goToStore = this.goToStore.bind(this)
+  // }
+
+  // goToStore() {
+  //   console.log('Valor', this.storeInput)
+  //   // console.log('Valor', this.storeInput.value)
+  // }
 
   __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_createClass___default()(StorePicker, [{
-    key: 'goToStore',
-    value: function goToStore() {
-      console.log('Valor', this.storeInput);
-      // console.log('Valor', this.storeInput.value)
-    }
-  }, {
     key: 'render',
     value: function render() {
       var _this2 = this;

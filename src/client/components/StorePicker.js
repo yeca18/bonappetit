@@ -2,9 +2,19 @@ import React, { Component } from 'react'
 import { getFunName } from '../utils/helpers'
 
 export default class StorePicker extends Component {
-  goToStore() {
-    console.log('Valor', this.storeInput)
-    // console.log('Valor', this.storeInput.value)
+  // constructor() {
+  //   super()
+  //   this.goToStore = this.goToStore.bind(this)
+  // }
+
+  // goToStore() {
+  //   console.log('Valor', this.storeInput)
+  //   // console.log('Valor', this.storeInput.value)
+  // }
+
+  goToStore = () => {
+    console.log('Valor', this.storeInput.value)
+    this.props.history.push(`/store/${this.storeInput.value}`)
   }
 
   render() {
