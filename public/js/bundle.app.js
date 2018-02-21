@@ -26652,11 +26652,19 @@ var StorePicker = function (_Component) {
   }
 
   __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_createClass___default()(StorePicker, [{
+    key: 'goToStore',
+    value: function goToStore() {
+      console.log('Valor', this.storeInput);
+      // console.log('Valor', this.storeInput.value)
+    }
+  }, {
     key: 'render',
     value: function render() {
+      var _this2 = this;
+
       return __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(
         'form',
-        { className: 'store-selector' },
+        { className: 'store-selector', onSubmit: this.goToStore },
         __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(
           'h2',
           null,
@@ -26666,7 +26674,10 @@ var StorePicker = function (_Component) {
           type: 'text',
           required: true,
           placeholder: 'Nombre de la Tienda',
-          defaultValue: Object(__WEBPACK_IMPORTED_MODULE_5__utils_helpers__["a" /* getFunName */])()
+          defaultValue: Object(__WEBPACK_IMPORTED_MODULE_5__utils_helpers__["a" /* getFunName */])(),
+          ref: function ref(input) {
+            _this2.storeInput = input;
+          }
         }),
         __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(
           'button',
