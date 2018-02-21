@@ -3,17 +3,19 @@ const { join } = require('path')
 
 const app = express()
 
+app.use(express.static(join(__dirname, '..', '..', '/public')))
+
 app.get('/', (req, res) => {
   res.sendFile(join(__dirname, '..', '..', '/public/index.html'))
 })
 
-app.get('/users/:id', (req, res) => {
+app.get('/users', (req, res) => {
   const users = {
     14: 'Francisco',
     15: 'Jose',
     16: 'Maria'
   }
-  res.json({ name: users[req.params.id] })
+  res.json(users)
 })
 
 app.get('/companies', (req, res) => {
