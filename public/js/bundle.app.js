@@ -24726,7 +24726,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, ".order-enter {\n  -webkit-transition: all 0.5s;\n  transition: all 0.5s;\n  -webkit-transform: translateX(-120%);\n          transform: translateX(-120%);\n  max-height: 0;\n  padding: 0 !important;\n}\n.order-enter.order-enter-active {\n  max-height: 60px;\n  padding: 2rem 0 !important;\n  -webkit-transform: translateX(0);\n          transform: translateX(0);\n}\n.order-leave {\n  -webkit-transition: all 0.5s;\n  transition: all 0.5s;\n  -webkit-transform: translateX(0);\n          transform: translateX(0);\n}\n.order-leave.order-leave-active {\n  -webkit-transform: translateX(120%);\n          transform: translateX(120%);\n  max-height: 0;\n  padding: 0;\n}\n.count-enter {\n  -webkit-transition: all 0.25s;\n  transition: all 0.25s;\n  -webkit-transform: translateY(100%);\n          transform: translateY(100%);\n}\n.count-enter.count-enter-active {\n  -webkit-transform: translateY(0);\n          transform: translateY(0);\n}\n.count-leave {\n  -webkit-transition: all 0.25s;\n  transition: all 0.25s;\n  position: absolute;\n  left: 0;\n  bottom: 0;\n  -webkit-transform: translateY(0);\n          transform: translateY(0);\n}\n.count-leave.count-leave-active {\n  -webkit-transform: translateY(-100%);\n          transform: translateY(-100%);\n}\n@font-face {\n  font-family: \"haymakerregular\";\n  src: url(" + escape(__webpack_require__(/*! ./fonts/haymaker-webfont.eot */ 66)) + ");\n  src: url(" + escape(__webpack_require__(/*! ./fonts/haymaker-webfont.eot */ 66)) + "?#iefix) format(\"embedded-opentype\"), url(" + escape(__webpack_require__(/*! ./fonts/haymaker-webfont.woff */ 124)) + ") format(\"woff\"), url(" + escape(__webpack_require__(/*! ./fonts/haymaker-webfont.ttf */ 125)) + ") format(\"truetype\"), url(" + escape(__webpack_require__(/*! ./fonts/haymaker-webfont.svg */ 126)) + "#haymakerregular) format(\"svg\");\n  font-weight: normal;\n  font-style: normal;\n}\n@font-face {\n  font-family: 'blanchcaps_inline';\n  src: url(" + escape(__webpack_require__(/*! ./fonts/blanch_caps_inline-webfont.eot */ 67)) + ");\n  src: url(" + escape(__webpack_require__(/*! ./fonts/blanch_caps_inline-webfont.eot */ 67)) + "?#iefix) format('embedded-opentype'), url(" + escape(__webpack_require__(/*! ./fonts/blanch_caps_inline-webfont.woff */ 127)) + ") format('woff'), url(" + escape(__webpack_require__(/*! ./fonts/blanch_caps_inline-webfont.ttf */ 128)) + ") format('truetype'), url(" + escape(__webpack_require__(/*! ./fonts/blanch_caps_inline-webfont.svg */ 129)) + "#blanchcaps_inline) format('svg');\n  font-weight: normal;\n  font-style: normal;\n}\narticle,\naside,\ndetails,\nfigcaption,\nfigure,\nfooter,\nheader,\nhgroup,\nnav,\nsection,\nsummary {\n  display: block;\n}\naudio,\ncanvas,\nvideo {\n  display: inline-block;\n}\naudio:not([controls]) {\n  display: none;\n  height: 0;\n}\n[hidden] {\n  display: none;\n}\nhtml {\n  font-family: sans-serif;\n  -webkit-text-size-adjust: 100%;\n  -ms-text-size-adjust: 100%;\n}\na:focus {\n  outline: thin dotted;\n}\na:active,\na:hover {\n  outline: 0;\n}\nh1 {\n  font-size: 2em;\n}\nabbr[title] {\n  border-bottom: 1px dotted;\n}\nb,\nstrong {\n  font-weight: 700;\n}\ndfn {\n  font-style: italic;\n}\nmark {\n  background: #ff0;\n  color: #000;\n}\ncode,\nkbd,\npre,\nsamp {\n  font-family: monospace, serif;\n  font-size: 1em;\n}\npre {\n  white-space: pre-wrap;\n  word-wrap: break-word;\n}\nq {\n  quotes: 2 1C 2 1D 2 18 2 19;\n}\nsmall {\n  font-size: 80%;\n}\nsub,\nsup {\n  font-size: 75%;\n  line-height: 0;\n  position: relative;\n  vertical-align: baseline;\n}\nsup {\n  top: -0.5em;\n}\nsub {\n  bottom: -0.25em;\n}\nimg {\n  border: 0;\n}\nsvg:not(:root) {\n  overflow: hidden;\n}\nfieldset {\n  border: 1px solid #c0c0c0;\n  margin: 0 2px;\n  padding: 0.35em 0.625em 0.75em;\n}\nbutton,\ninput,\nselect,\ntextarea {\n  font-family: inherit;\n  font-size: 100%;\n  margin: 0;\n}\nbutton,\ninput {\n  line-height: normal;\n}\nbutton,\nhtml input[type=button],\ninput[type=reset],\ninput[type=submit] {\n  -webkit-appearance: button;\n  cursor: pointer;\n}\nbutton[disabled],\ninput[disabled] {\n  cursor: default;\n}\ninput[type=checkbox],\ninput[type=radio] {\n  box-sizing: border-box;\n  padding: 0;\n}\ninput[type=search] {\n  -webkit-appearance: textfield;\n  box-sizing: content-box;\n}\ninput[type=search]::-webkit-search-cancel-button,\ninput[type=search]::-webkit-search-decoration {\n  -webkit-appearance: none;\n}\ntextarea {\n  overflow: auto;\n  vertical-align: top;\n}\ntable {\n  border-collapse: collapse;\n  border-spacing: 0;\n}\nbody,\nfigure {\n  margin: 0;\n}\nlegend,\nbutton::-moz-focus-inner,\ninput::-moz-focus-inner {\n  border: 0;\n  padding: 0;\n}\n.clearfix:after {\n  visibility: hidden;\n  display: block;\n  font-size: 0;\n  content: \" \";\n  clear: both;\n  height: 0;\n}\n* {\n  box-sizing: border-box;\n}\nhtml {\n  font-size: 62.5%;\n}\nbody {\n  background: #d4d4d4;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n  font-family: 'Open Sans', sans-serif;\n  font-size: 2rem;\n}\nh1 {\n  font-family: 'blanchcaps_inline', sans-serif;\n  text-align: center;\n  font-weight: normal;\n  margin: 0;\n}\nh2,\nh3,\nh4,\nh5,\nh6 {\n  font-weight: normal;\n  font-family: 'haymakerregular', sans-serif;\n}\nh2 {\n  text-align: center;\n  margin-top: 0;\n  margin-bottom: 2rem;\n}\nh3 {\n  font-size: 3rem;\n}\nheader.top {\n  text-align: center;\n}\nheader.top h1 {\n  font-size: 14.4rem;\n  line-height: 0.7;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n}\nheader.top h1 .ofThe {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  font-size: 3rem;\n  color: #f5a623;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  background: url(" + escape(__webpack_require__(/*! ./images/anchor.svg */ 130)) + ") center no-repeat;\n  background-size: cover;\n  padding: 0 1rem;\n}\nheader.top h1 .ofThe .of {\n  padding-right: 2rem;\n  position: relative;\n  right: -0.5rem;\n}\nheader.top h3 {\n  margin: 0;\n  font-size: 2rem;\n  color: #f5a623;\n  position: relative;\n  display: inline-block;\n}\nheader.top h3 span {\n  background: #fff;\n  position: relative;\n  z-index: 2;\n  padding-left: 1rem;\n  padding-right: 1rem;\n}\nheader.top h3:before,\nheader.top h3:after {\n  display: block;\n  z-index: 1;\n  background: #000;\n  position: absolute;\n  width: 130%;\n  height: 1px;\n  content: '';\n  top: 5px;\n  margin-left: -15%;\n}\nheader.top h3:after {\n  top: auto;\n  bottom: 7px;\n}\n.catch-of-the-day {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  height: 90vh;\n  max-width: 1500px;\n  margin: 0 auto;\n  margin-top: 5vh;\n  -webkit-perspective: 1000;\n          perspective: 1000;\n  -webkit-transform-style: preserve-3d;\n          transform-style: preserve-3d;\n}\n.catch-of-the-day > * {\n  -webkit-box-flex: 1;\n      -ms-flex: 1 4 auto;\n          flex: 1 4 auto;\n  padding: 2rem;\n  border: 1rem double #1a1a1a;\n  position: relative;\n  background: #fff;\n  -webkit-transition: all 0.3s;\n  transition: all 0.3s;\n  box-shadow: 0px 5px 5px rgba(0,0,0,0.1);\n  overflow: scroll;\n}\n.catch-of-the-day > *:first-child {\n  -ms-flex-negative: 1;\n      flex-shrink: 1;\n  -ms-flex-preferred-size: 50%;\n      flex-basis: 50%;\n  -webkit-transform: translateX(50%) rotateY(6deg) translateX(-50%);\n          transform: translateX(50%) rotateY(6deg) translateX(-50%);\n}\n.catch-of-the-day > *:nth-child(2) {\n  -webkit-transform: translateX(-50%) rotateY(-14deg) translateX(50%);\n          transform: translateX(-50%) rotateY(-14deg) translateX(50%);\n  border-left: 0;\n  border-right: 0;\n  min-width: 300px;\n}\n.catch-of-the-day > *:last-child {\n  -ms-flex-negative: 1;\n      flex-shrink: 1;\n  -ms-flex-preferred-size: 50%;\n      flex-basis: 50%;\n  -webkit-transform: translateX(-50%) rotateY(10deg) translateX(50%) scale(1.08) translateX(24px);\n          transform: translateX(-50%) rotateY(10deg) translateX(50%) scale(1.08) translateX(24px);\n}\ninput#fold:not(:checked) ~ #main .catch-of-the-day > * {\n  -webkit-transform: none;\n          transform: none;\n}\nlabel[for=\"fold\"] {\n  position: absolute;\n  top: 1rem;\n  left: 1rem;\n  text-transform: uppercase;\n  font-size: 1.3rem;\n  background: #000;\n  color: #fff;\n  border: 2px solid #000;\n  cursor: pointer;\n  padding: 0.5rem 1rem;\n}\ninput#fold {\n  display: none;\n}\ninput#fold:checked + label {\n  background: #fff;\n  color: #000;\n}\nul {\n  list-style: none;\n  margin: 0;\n  padding: 0;\n}\nul.order li {\n  border-bottom: 1px solid #000;\n  padding: 2rem 0;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  font-size: 1.4rem;\n  -webkit-box-pack: justify;\n      -ms-flex-pack: justify;\n          justify-content: space-between;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n}\nul.order li:hover button {\n  display: inline;\n}\nul.order li button {\n  border: 0;\n  display: none;\n  line-height: 1;\n  padding: 0;\n}\nul.order li.total {\n  font-weight: 600;\n  border-bottom: 3px solid #000;\n  border-top: 3px double #000;\n}\nul.order li.unavailable {\n  text-decoration: line-through;\n  background: #f8d0d2;\n}\nul.order li .price {\n  font-size: 1.2rem;\n}\nul.order li span.count {\n  position: relative;\n  overflow: hidden;\n  float: left;\n}\nul.order li span.count span {\n  display: inline-block;\n}\n.order-title {\n  text-align: center;\n}\n.fish-edit {\n  margin-bottom: 20px;\n  border: 2px solid #000;\n  overflow: hidden;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -ms-flex-wrap: wrap;\n      flex-wrap: wrap;\n}\n.fish-edit input,\n.fish-edit textarea,\n.fish-edit select {\n  width: 33.33%;\n  padding: 10px;\n  line-height: 1;\n  font-size: 1.2rem;\n  border: 0;\n  border-bottom: 1px solid #000;\n  border-right: 1px solid #000;\n  -webkit-appearance: none;\n     -moz-appearance: none;\n          appearance: none;\n  border-radius: 0;\n  background: #fff;\n}\n.fish-edit input:focus,\n.fish-edit textarea:focus,\n.fish-edit select:focus {\n  outline: 0;\n  background: #fef2de;\n}\n.fish-edit textarea {\n  width: 100%;\n}\n.fish-edit input:last-of-type {\n  width: 100%;\n}\n.fish-edit button {\n  width: 100%;\n  border: 0;\n}\n.list-of-fish {\n  border-top: 2px solid #000;\n  border-bottom: 1px solid #000;\n  padding-top: 5px;\n  margin-top: 2rem;\n  -webkit-transform: translateZ(0);\n          transform: translateZ(0);\n}\n.menu-fish {\n  border-bottom: 2px solid #000;\n  border-top: 1px solid #000;\n  padding-bottom: 2rem;\n  padding-top: 2rem;\n  margin-bottom: 5px;\n  clear: both;\n  overflow: hidden;\n}\n.menu-fish p {\n  margin: 0;\n  font-size: 1.8rem;\n}\n.menu-fish .fish-name {\n  margin: 0;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-pack: justify;\n      -ms-flex-pack: justify;\n          justify-content: space-between;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n}\n.menu-fish .price {\n  font-size: 1.4rem;\n  -webkit-box-pack: end;\n      -ms-flex-pack: end;\n          justify-content: flex-end;\n}\n.menu-fish img {\n  float: left;\n  width: 150px;\n  margin-right: 1rem;\n}\nbutton,\ninput[type=submit] {\n  text-transform: uppercase;\n  background: none;\n  border: 1px solid #000;\n  font-weight: 600;\n  font-size: 1.5rem;\n  font-family: 'Open Sans';\n  -webkit-transition: all 0.2s;\n  transition: all 0.2s;\n  position: relative;\n  z-index: 2;\n}\nbutton[disabled],\ninput[type=submit][disabled] {\n  color: #d12028;\n  background: #fff;\n  border-color: #d12028;\n  -webkit-transform: rotate(-10deg) scale(2) translateX(50%) translateY(-50%);\n          transform: rotate(-10deg) scale(2) translateX(50%) translateY(-50%);\n}\nbutton[disabled]:hover,\ninput[type=submit][disabled]:hover {\n  color: #d12028;\n  cursor: not-allowed;\n}\nbutton[disabled]:after,\ninput[type=submit][disabled]:after {\n  display: none;\n}\nbutton:after,\ninput[type=submit]:after {\n  content: '';\n  z-index: -1;\n  display: block;\n  background: #000;\n  position: absolute;\n  width: 100%;\n  height: 0%;\n  left: 0;\n  top: 0;\n  -webkit-transition: all 0.2s;\n  transition: all 0.2s;\n}\nbutton:hover,\ninput[type=submit]:hover,\nbutton:focus,\ninput[type=submit]:focus {\n  color: #fff;\n  outline: 0;\n}\nbutton:hover:after,\ninput[type=submit]:hover:after,\nbutton:focus:after,\ninput[type=submit]:focus:after {\n  height: 100%;\n}\nbutton.warning:after,\ninput[type=submit].warning:after {\n  background: #d12028;\n}\nbutton.success:after,\ninput[type=submit].success:after {\n  background: #2dc22d;\n}\nbutton.github,\ninput[type=submit].github,\nbutton.facebook,\ninput[type=submit].facebook,\nbutton.twitter,\ninput[type=submit].twitter {\n  border: 0;\n  display: block;\n  margin-bottom: 2rem;\n  width: 100%;\n  color: #fff;\n  padding: 2rem;\n}\nbutton.github,\ninput[type=submit].github {\n  background: #82d465;\n}\nbutton.github:after,\ninput[type=submit].github:after {\n  background: #5cc437;\n}\nbutton.facebook,\ninput[type=submit].facebook {\n  background: #3864a3;\n}\nbutton.facebook:after,\ninput[type=submit].facebook:after {\n  background: #2d5082;\n}\nbutton.twitter,\ninput[type=submit].twitter {\n  background: #5ea9dd;\n}\nbutton.twitter:after,\ninput[type=submit].twitter:after {\n  background: #2c8dd0;\n}\n.store-selector {\n  background: #fff;\n  max-width: 500px;\n  margin: 50px auto;\n  padding: 2rem;\n  border: 2px solid #000;\n}\n.store-selector input,\n.store-selector button {\n  width: 100%;\n}\n.store-selector input[type=\"text\"],\n.store-selector button[type=\"text\"] {\n  text-align: center;\n  font-size: 3rem;\n}\n\n.menu {\n  overflow: hidden;\n}", ""]);
+exports.push([module.i, ".order-enter {\n  -webkit-transition: all 0.5s;\n  transition: all 0.5s;\n  -webkit-transform: translateX(-120%);\n          transform: translateX(-120%);\n  max-height: 0;\n  padding: 0 !important;\n}\n\n.order-enter.order-enter-active {\n  max-height: 60px;\n  padding: 2rem 0 !important;\n  -webkit-transform: translateX(0);\n          transform: translateX(0);\n}\n.order-leave {\n  -webkit-transition: all 0.5s;\n  transition: all 0.5s;\n  -webkit-transform: translateX(0);\n          transform: translateX(0);\n}\n.order-leave.order-leave-active {\n  -webkit-transform: translateX(120%);\n          transform: translateX(120%);\n  max-height: 0;\n  padding: 0;\n}\n.count-enter {\n  -webkit-transition: all 0.25s;\n  transition: all 0.25s;\n  -webkit-transform: translateY(100%);\n          transform: translateY(100%);\n}\n.count-enter.count-enter-active {\n  -webkit-transform: translateY(0);\n          transform: translateY(0);\n}\n.count-leave {\n  -webkit-transition: all 0.25s;\n  transition: all 0.25s;\n  position: absolute;\n  left: 0;\n  bottom: 0;\n  -webkit-transform: translateY(0);\n          transform: translateY(0);\n}\n.count-leave.count-leave-active {\n  -webkit-transform: translateY(-100%);\n          transform: translateY(-100%);\n}\n@font-face {\n  font-family: \"haymakerregular\";\n  src: url(" + escape(__webpack_require__(/*! ./fonts/haymaker-webfont.eot */ 66)) + ");\n  src: url(" + escape(__webpack_require__(/*! ./fonts/haymaker-webfont.eot */ 66)) + "?#iefix) format(\"embedded-opentype\"), url(" + escape(__webpack_require__(/*! ./fonts/haymaker-webfont.woff */ 124)) + ") format(\"woff\"), url(" + escape(__webpack_require__(/*! ./fonts/haymaker-webfont.ttf */ 125)) + ") format(\"truetype\"), url(" + escape(__webpack_require__(/*! ./fonts/haymaker-webfont.svg */ 126)) + "#haymakerregular) format(\"svg\");\n  font-weight: normal;\n  font-style: normal;\n}\n@font-face {\n  font-family: 'blanchcaps_inline';\n  src: url(" + escape(__webpack_require__(/*! ./fonts/blanch_caps_inline-webfont.eot */ 67)) + ");\n  src: url(" + escape(__webpack_require__(/*! ./fonts/blanch_caps_inline-webfont.eot */ 67)) + "?#iefix) format('embedded-opentype'), url(" + escape(__webpack_require__(/*! ./fonts/blanch_caps_inline-webfont.woff */ 127)) + ") format('woff'), url(" + escape(__webpack_require__(/*! ./fonts/blanch_caps_inline-webfont.ttf */ 128)) + ") format('truetype'), url(" + escape(__webpack_require__(/*! ./fonts/blanch_caps_inline-webfont.svg */ 129)) + "#blanchcaps_inline) format('svg');\n  font-weight: normal;\n  font-style: normal;\n}\narticle,\naside,\ndetails,\nfigcaption,\nfigure,\nfooter,\nheader,\nhgroup,\nnav,\nsection,\nsummary {\n  display: block;\n}\naudio,\ncanvas,\nvideo {\n  display: inline-block;\n}\naudio:not([controls]) {\n  display: none;\n  height: 0;\n}\n[hidden] {\n  display: none;\n}\nhtml {\n  font-family: sans-serif;\n  -webkit-text-size-adjust: 100%;\n  -ms-text-size-adjust: 100%;\n}\na:focus {\n  outline: thin dotted;\n}\na:active,\na:hover {\n  outline: 0;\n}\nh1 {\n  font-size: 2em;\n}\nabbr[title] {\n  border-bottom: 1px dotted;\n}\nb,\nstrong {\n  font-weight: 700;\n}\ndfn {\n  font-style: italic;\n}\nmark {\n  background: #ff0;\n  color: #000;\n}\ncode,\nkbd,\npre,\nsamp {\n  font-family: monospace, serif;\n  font-size: 1em;\n}\npre {\n  white-space: pre-wrap;\n  word-wrap: break-word;\n}\nq {\n  quotes: 2 1C 2 1D 2 18 2 19;\n}\nsmall {\n  font-size: 80%;\n}\nsub,\nsup {\n  font-size: 75%;\n  line-height: 0;\n  position: relative;\n  vertical-align: baseline;\n}\nsup {\n  top: -0.5em;\n}\nsub {\n  bottom: -0.25em;\n}\nimg {\n  border: 0;\n}\nsvg:not(:root) {\n  overflow: hidden;\n}\nfieldset {\n  border: 1px solid #c0c0c0;\n  margin: 0 2px;\n  padding: 0.35em 0.625em 0.75em;\n}\nbutton,\ninput,\nselect,\ntextarea {\n  font-family: inherit;\n  font-size: 100%;\n  margin: 0;\n}\nbutton,\ninput {\n  line-height: normal;\n}\nbutton,\nhtml input[type=button],\ninput[type=reset],\ninput[type=submit] {\n  -webkit-appearance: button;\n  cursor: pointer;\n}\nbutton[disabled],\ninput[disabled] {\n  cursor: default;\n}\ninput[type=checkbox],\ninput[type=radio] {\n  box-sizing: border-box;\n  padding: 0;\n}\ninput[type=search] {\n  -webkit-appearance: textfield;\n  box-sizing: content-box;\n}\ninput[type=search]::-webkit-search-cancel-button,\ninput[type=search]::-webkit-search-decoration {\n  -webkit-appearance: none;\n}\ntextarea {\n  overflow: auto;\n  vertical-align: top;\n}\ntable {\n  border-collapse: collapse;\n  border-spacing: 0;\n}\nbody,\nfigure {\n  margin: 0;\n}\nlegend,\nbutton::-moz-focus-inner,\ninput::-moz-focus-inner {\n  border: 0;\n  padding: 0;\n}\n.clearfix:after {\n  visibility: hidden;\n  display: block;\n  font-size: 0;\n  content: \" \";\n  clear: both;\n  height: 0;\n}\n* {\n  box-sizing: border-box;\n}\nhtml {\n  font-size: 62.5%;\n}\nbody {\n  background: #d4d4d4;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n  font-family: 'Open Sans', sans-serif;\n  font-size: 2rem;\n}\nh1 {\n  font-family: 'blanchcaps_inline', sans-serif;\n  text-align: center;\n  font-weight: normal;\n  margin: 0;\n}\nh2,\nh3,\nh4,\nh5,\nh6 {\n  font-weight: normal;\n  font-family: 'haymakerregular', sans-serif;\n}\nh2 {\n  text-align: center;\n  margin-top: 0;\n  margin-bottom: 2rem;\n}\nh3 {\n  font-size: 3rem;\n}\nheader.top {\n  text-align: center;\n}\nheader.top h1 {\n  font-size: 14.4rem;\n  line-height: 0.7;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n}\nheader.top h1 .ofThe {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  font-size: 3rem;\n  color: #f5a623;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  background: url(" + escape(__webpack_require__(/*! ./images/anchor.svg */ 130)) + ") center no-repeat;\n  background-size: cover;\n  padding: 0 1rem;\n}\nheader.top h1 .ofThe .of {\n  padding-right: 2rem;\n  position: relative;\n  right: -0.5rem;\n}\nheader.top h3 {\n  margin: 0;\n  font-size: 2rem;\n  color: #f5a623;\n  position: relative;\n  display: inline-block;\n}\nheader.top h3 span {\n  background: #fff;\n  position: relative;\n  z-index: 2;\n  padding-left: 1rem;\n  padding-right: 1rem;\n}\nheader.top h3:before,\nheader.top h3:after {\n  display: block;\n  z-index: 1;\n  background: #000;\n  position: absolute;\n  width: 130%;\n  height: 1px;\n  content: '';\n  top: 5px;\n  margin-left: -15%;\n}\nheader.top h3:after {\n  top: auto;\n  bottom: 7px;\n}\n.catch-of-the-day {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  height: 90vh;\n  max-width: 1500px;\n  margin: 0 auto;\n  margin-top: 5vh;\n  -webkit-perspective: 1000;\n          perspective: 1000;\n  -webkit-transform-style: preserve-3d;\n          transform-style: preserve-3d;\n}\n.catch-of-the-day > * {\n  -webkit-box-flex: 1;\n      -ms-flex: 1 4 auto;\n          flex: 1 4 auto;\n  padding: 2rem;\n  border: 1rem double #1a1a1a;\n  position: relative;\n  background: #fff;\n  -webkit-transition: all 0.3s;\n  transition: all 0.3s;\n  box-shadow: 0px 5px 5px rgba(0,0,0,0.1);\n}\n.catch-of-the-day > *:first-child {\n  -ms-flex-negative: 1;\n      flex-shrink: 1;\n  -ms-flex-preferred-size: 50%;\n      flex-basis: 50%;\n  -webkit-transform: translateX(50%) rotateY(6deg) translateX(-50%);\n          transform: translateX(50%) rotateY(6deg) translateX(-50%);\n}\n.catch-of-the-day > *:nth-child(2) {\n  -webkit-transform: translateX(-50%) rotateY(-14deg) translateX(50%);\n          transform: translateX(-50%) rotateY(-14deg) translateX(50%);\n  border-left: 0;\n  border-right: 0;\n  min-width: 300px;\n}\n.catch-of-the-day > *:last-child {\n  -ms-flex-negative: 1;\n      flex-shrink: 1;\n  -ms-flex-preferred-size: 50%;\n      flex-basis: 50%;\n  -webkit-transform: translateX(-50%) rotateY(10deg) translateX(50%) scale(1.08) translateX(24px);\n          transform: translateX(-50%) rotateY(10deg) translateX(50%) scale(1.08) translateX(24px);\n}\ninput#fold:not(:checked) ~ #main .catch-of-the-day > * {\n  -webkit-transform: none;\n          transform: none;\n}\nlabel[for=\"fold\"] {\n  position: absolute;\n  top: 1rem;\n  left: 1rem;\n  text-transform: uppercase;\n  font-size: 1.3rem;\n  background: #000;\n  color: #fff;\n  border: 2px solid #000;\n  cursor: pointer;\n  padding: 0.5rem 1rem;\n}\ninput#fold {\n  display: none;\n}\ninput#fold:checked + label {\n  background: #fff;\n  color: #000;\n}\nul {\n  list-style: none;\n  margin: 0;\n  padding: 0;\n}\nul.order li {\n  border-bottom: 1px solid #000;\n  padding: 2rem 0;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  font-size: 1.4rem;\n  -webkit-box-pack: justify;\n      -ms-flex-pack: justify;\n          justify-content: space-between;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n}\nul.order li:hover button {\n  display: inline;\n}\nul.order li button {\n  border: 0;\n  display: none;\n  line-height: 1;\n  padding: 0;\n}\nul.order li.total {\n  font-weight: 600;\n  border-bottom: 3px solid #000;\n  border-top: 3px double #000;\n}\nul.order li.unavailable {\n  text-decoration: line-through;\n  background: #f8d0d2;\n}\nul.order li .price {\n  font-size: 1.2rem;\n}\nul.order li span.count {\n  position: relative;\n  overflow: hidden;\n  float: left;\n}\nul.order li span.count span {\n  display: inline-block;\n}\n.order-title {\n  text-align: center;\n}\n.fish-edit {\n  margin-bottom: 20px;\n  border: 2px solid #000;\n  overflow: hidden;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -ms-flex-wrap: wrap;\n      flex-wrap: wrap;\n}\n.fish-edit input,\n.fish-edit textarea,\n.fish-edit select {\n  width: 33.33%;\n  padding: 10px;\n  line-height: 1;\n  font-size: 1.2rem;\n  border: 0;\n  border-bottom: 1px solid #000;\n  border-right: 1px solid #000;\n  -webkit-appearance: none;\n     -moz-appearance: none;\n          appearance: none;\n  border-radius: 0;\n  background: #fff;\n}\n.fish-edit input:focus,\n.fish-edit textarea:focus,\n.fish-edit select:focus {\n  outline: 0;\n  background: #fef2de;\n}\n.fish-edit textarea {\n  width: 100%;\n}\n.fish-edit input:last-of-type {\n  width: 100%;\n}\n.fish-edit button {\n  width: 100%;\n  border: 0;\n}\n.list-of-fish {\n  border-top: 2px solid #000;\n  border-bottom: 1px solid #000;\n  padding-top: 5px;\n  margin-top: 2rem;\n  -webkit-transform: translateZ(0);\n          transform: translateZ(0);\n}\n.menu-dish {\n  border-bottom: 2px solid #000;\n  border-top: 1px solid #000;\n  padding-bottom: 2rem;\n  padding-top: 2rem;\n  margin-bottom: 5px;\n  clear: both;\n  overflow: hidden;\n}\n.menu-dish p {\n  margin: 0;\n  font-size: 1.8rem;\n}\n.menu-dish .dish-name {\n  margin: 0;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-pack: justify;\n      -ms-flex-pack: justify;\n          justify-content: space-between;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n}\n.menu-dish .price {\n  font-size: 1.4rem;\n  -webkit-box-pack: end;\n      -ms-flex-pack: end;\n          justify-content: flex-end;\n}\n.menu-dish img {\n  float: left;\n  width: 150px;\n  margin-right: 1rem;\n}\nbutton,\ninput[type=submit] {\n  text-transform: uppercase;\n  background: none;\n  border: 1px solid #000;\n  font-weight: 600;\n  font-size: 1.5rem;\n  font-family: 'Open Sans';\n  -webkit-transition: all 0.2s;\n  transition: all 0.2s;\n  position: relative;\n  z-index: 2;\n}\nbutton[disabled],\ninput[type=submit][disabled] {\n  color: #d12028;\n  background: #fff;\n  border-color: #d12028;\n  -webkit-transform: rotate(-10deg) scale(2) translateX(50%) translateY(-50%);\n          transform: rotate(-10deg) scale(2) translateX(50%) translateY(-50%);\n}\nbutton[disabled]:hover,\ninput[type=submit][disabled]:hover {\n  color: #d12028;\n  cursor: not-allowed;\n}\nbutton[disabled]:after,\ninput[type=submit][disabled]:after {\n  display: none;\n}\nbutton:after,\ninput[type=submit]:after {\n  content: '';\n  z-index: -1;\n  display: block;\n  background: #000;\n  position: absolute;\n  width: 100%;\n  height: 0%;\n  left: 0;\n  top: 0;\n  -webkit-transition: all 0.2s;\n  transition: all 0.2s;\n}\nbutton:hover,\ninput[type=submit]:hover,\nbutton:focus,\ninput[type=submit]:focus {\n  color: #fff;\n  outline: 0;\n}\nbutton:hover:after,\ninput[type=submit]:hover:after,\nbutton:focus:after,\ninput[type=submit]:focus:after {\n  height: 100%;\n}\nbutton.warning:after,\ninput[type=submit].warning:after {\n  background: #d12028;\n}\nbutton.success:after,\ninput[type=submit].success:after {\n  background: #2dc22d;\n}\nbutton.github,\ninput[type=submit].github,\nbutton.facebook,\ninput[type=submit].facebook,\nbutton.twitter,\ninput[type=submit].twitter {\n  border: 0;\n  display: block;\n  margin-bottom: 2rem;\n  width: 100%;\n  color: #fff;\n  padding: 2rem;\n}\nbutton.github,\ninput[type=submit].github {\n  background: #82d465;\n}\nbutton.github:after,\ninput[type=submit].github:after {\n  background: #5cc437;\n}\nbutton.facebook,\ninput[type=submit].facebook {\n  background: #3864a3;\n}\nbutton.facebook:after,\ninput[type=submit].facebook:after {\n  background: #2d5082;\n}\nbutton.twitter,\ninput[type=submit].twitter {\n  background: #5ea9dd;\n}\nbutton.twitter:after,\ninput[type=submit].twitter:after {\n  background: #2c8dd0;\n}\n.store-selector {\n  background: #fff;\n  max-width: 500px;\n  margin: 50px auto;\n  padding: 2rem;\n  border: 2px solid #000;\n}\n.store-selector input,\n.store-selector button {\n  width: 100%;\n}\n.store-selector input[type=\"text\"],\n.store-selector button[type=\"text\"] {\n  text-align: center;\n  font-size: 3rem;\n}\n\n.menu {\n  overflow-x: hidden !important;\n}", ""]);
 
 // exports
 
@@ -25419,25 +25419,32 @@ module.exports = function (css) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__ = __webpack_require__(/*! babel-runtime/helpers/extends */ 350);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_toConsumableArray__ = __webpack_require__(/*! babel-runtime/helpers/toConsumableArray */ 179);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_toConsumableArray___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_toConsumableArray__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_classCallCheck__ = __webpack_require__(/*! babel-runtime/helpers/classCallCheck */ 24);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_classCallCheck___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_classCallCheck__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_createClass__ = __webpack_require__(/*! babel-runtime/helpers/createClass */ 25);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_createClass___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_createClass__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_possibleConstructorReturn__ = __webpack_require__(/*! babel-runtime/helpers/possibleConstructorReturn */ 28);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_possibleConstructorReturn___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_possibleConstructorReturn__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_babel_runtime_helpers_inherits__ = __webpack_require__(/*! babel-runtime/helpers/inherits */ 30);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_babel_runtime_helpers_inherits___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_babel_runtime_helpers_inherits__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react__ = __webpack_require__(/*! react */ 0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_simple_id__ = __webpack_require__(/*! simple-id */ 258);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_simple_id___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_simple_id__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__Header__ = __webpack_require__(/*! ./Header */ 172);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__Order__ = __webpack_require__(/*! ./Order */ 173);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__Inventory__ = __webpack_require__(/*! ./Inventory */ 174);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_objectWithoutProperties__ = __webpack_require__(/*! babel-runtime/helpers/objectWithoutProperties */ 356);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_objectWithoutProperties___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_objectWithoutProperties__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_extends__ = __webpack_require__(/*! babel-runtime/helpers/extends */ 350);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_extends___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_extends__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_toConsumableArray__ = __webpack_require__(/*! babel-runtime/helpers/toConsumableArray */ 179);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_toConsumableArray___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_toConsumableArray__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_classCallCheck__ = __webpack_require__(/*! babel-runtime/helpers/classCallCheck */ 24);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_classCallCheck___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_classCallCheck__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_createClass__ = __webpack_require__(/*! babel-runtime/helpers/createClass */ 25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_createClass___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_createClass__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_babel_runtime_helpers_possibleConstructorReturn__ = __webpack_require__(/*! babel-runtime/helpers/possibleConstructorReturn */ 28);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_babel_runtime_helpers_possibleConstructorReturn___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_babel_runtime_helpers_possibleConstructorReturn__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_babel_runtime_helpers_inherits__ = __webpack_require__(/*! babel-runtime/helpers/inherits */ 30);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_babel_runtime_helpers_inherits___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_babel_runtime_helpers_inherits__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_react__ = __webpack_require__(/*! react */ 0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_simple_id__ = __webpack_require__(/*! simple-id */ 258);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_simple_id___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_simple_id__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__Header__ = __webpack_require__(/*! ./Header */ 172);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__Order__ = __webpack_require__(/*! ./Order */ 173);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__Inventory__ = __webpack_require__(/*! ./Inventory */ 174);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__Dish__ = __webpack_require__(/*! ./Dish */ 357);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__sample_dishes__ = __webpack_require__(/*! ../../../sample-dishes */ 355);
+
+
+
 
 
 
@@ -25452,58 +25459,62 @@ module.exports = function (css) {
 
 
 var App = function (_Component) {
-  __WEBPACK_IMPORTED_MODULE_5_babel_runtime_helpers_inherits___default()(App, _Component);
+  __WEBPACK_IMPORTED_MODULE_6_babel_runtime_helpers_inherits___default()(App, _Component);
 
   function App() {
     var _ref;
 
     var _temp, _this, _ret;
 
-    __WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_classCallCheck___default()(this, App);
+    __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_classCallCheck___default()(this, App);
 
     for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
       args[_key] = arguments[_key];
     }
 
-    return _ret = (_temp = (_this = __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_possibleConstructorReturn___default()(this, (_ref = App.__proto__ || Object.getPrototypeOf(App)).call.apply(_ref, [this].concat(args))), _this), _this.state = {
+    return _ret = (_temp = (_this = __WEBPACK_IMPORTED_MODULE_5_babel_runtime_helpers_possibleConstructorReturn___default()(this, (_ref = App.__proto__ || Object.getPrototypeOf(App)).call.apply(_ref, [this].concat(args))), _this), _this.state = {
       dishes: []
     }, _this.addDish = function (dish) {
-      var dishes = [].concat(__WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_toConsumableArray___default()(_this.state.dishes));
-      dishes.push(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default()({}, dish, { id: __WEBPACK_IMPORTED_MODULE_7_simple_id___default()(5) }));
+      var dishes = [].concat(__WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_toConsumableArray___default()(_this.state.dishes));
+      dishes.push(__WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_extends___default()({}, dish, { id: __WEBPACK_IMPORTED_MODULE_8_simple_id___default()(5) }));
 
-      // como se salva el estado?
-      // { dishes: dishes }
       _this.setState({ dishes: dishes });
-    }, _temp), __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_possibleConstructorReturn___default()(_this, _ret);
+    }, _this.loadDishes = function () {
+      _this.setState({
+        dishes: __WEBPACK_IMPORTED_MODULE_13__sample_dishes__["a" /* default */]
+      });
+    }, _temp), __WEBPACK_IMPORTED_MODULE_5_babel_runtime_helpers_possibleConstructorReturn___default()(_this, _ret);
   }
-  // Metodo un poco viejo de definir el state
-  // constructor() {
-  //   super()
 
-  //   this.state = {
-  //     dishes: [],
-  //   }
-  // }
-
-  __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_createClass___default()(App, [{
+  __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_createClass___default()(App, [{
     key: 'render',
     value: function render() {
-      return __WEBPACK_IMPORTED_MODULE_6_react___default.a.createElement(
+      return __WEBPACK_IMPORTED_MODULE_7_react___default.a.createElement(
         'div',
         { className: 'catch-of-the-day' },
-        __WEBPACK_IMPORTED_MODULE_6_react___default.a.createElement(
+        __WEBPACK_IMPORTED_MODULE_7_react___default.a.createElement(
           'div',
           { className: 'menu' },
-          __WEBPACK_IMPORTED_MODULE_6_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_8__Header__["a" /* default */], { tagline: 'Fresh Seafood market' })
+          __WEBPACK_IMPORTED_MODULE_7_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_9__Header__["a" /* default */], { tagline: 'Fresh Seafood market' }),
+          __WEBPACK_IMPORTED_MODULE_7_react___default.a.createElement(
+            'ul',
+            { className: 'list-of-dishes' },
+            this.state.dishes.map(function (_ref2) {
+              var id = _ref2.id,
+                  details = __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_objectWithoutProperties___default()(_ref2, ['id']);
+
+              return __WEBPACK_IMPORTED_MODULE_7_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_12__Dish__["a" /* default */], { key: id, details: details });
+            })
+          )
         ),
-        __WEBPACK_IMPORTED_MODULE_6_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_9__Order__["a" /* default */], null),
-        __WEBPACK_IMPORTED_MODULE_6_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_10__Inventory__["a" /* default */], { addDish: this.addDish })
+        __WEBPACK_IMPORTED_MODULE_7_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_10__Order__["a" /* default */], null),
+        __WEBPACK_IMPORTED_MODULE_7_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_11__Inventory__["a" /* default */], { addDish: this.addDish, loadDishes: this.loadDishes })
       );
     }
   }]);
 
   return App;
-}(__WEBPACK_IMPORTED_MODULE_6_react__["Component"]);
+}(__WEBPACK_IMPORTED_MODULE_7_react__["Component"]);
 
 /* harmony default export */ __webpack_exports__["a"] = (App);
 
@@ -26644,9 +26655,14 @@ var Inventory = function (_Component) {
         __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(
           'h2',
           null,
-          'Inventory'
+          'Inventario'
         ),
-        __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_5__AddDish__["a" /* default */], { addDish: this.props.addDish })
+        __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_5__AddDish__["a" /* default */], { addDish: this.props.addDish }),
+        __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(
+          'button',
+          { onClick: this.props.loadDishes },
+          'Cargar Platillos'
+        )
       );
     }
   }]);
@@ -26720,7 +26736,7 @@ var StorePicker = function (_Component) {
           type: 'text',
           required: true,
           placeholder: 'Nombre de la Tienda',
-          defaultValue: Object(__WEBPACK_IMPORTED_MODULE_5__utils_helpers__["a" /* getFunName */])(),
+          defaultValue: Object(__WEBPACK_IMPORTED_MODULE_5__utils_helpers__["b" /* getFunName */])(),
           ref: function ref(input) {
             _this2.storeInput = input;
           }
@@ -26745,14 +26761,14 @@ var StorePicker = function (_Component) {
   !*** ./src/client/utils/helpers.js ***!
   \*************************************/
 /*! exports provided: formatPrice, rando, slugify, getFunName */
-/*! exports used: getFunName */
+/*! exports used: formatPrice, getFunName */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* unused harmony export formatPrice */
+/* harmony export (immutable) */ __webpack_exports__["a"] = formatPrice;
 /* unused harmony export rando */
 /* unused harmony export slugify */
-/* harmony export (immutable) */ __webpack_exports__["a"] = getFunName;
+/* harmony export (immutable) */ __webpack_exports__["b"] = getFunName;
 function formatPrice(cents) {
   return '$' + (cents / 100).toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, ',');
 }
@@ -50850,6 +50866,192 @@ module.exports = !$assign || __webpack_require__(/*! ./_fails */ 26)(function ()
   } return T;
 } : $assign;
 
+
+/***/ }),
+/* 355 */
+/*!**************************!*\
+  !*** ./sample-dishes.js ***!
+  \**************************/
+/*! exports provided: default */
+/*! exports used: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+// This is just some sample data so you don't have to think of your own!
+var dishes = [{
+  id: '1',
+  name: 'Pacific Halibut',
+  image: 'https://images.pexels.com/photos/263017/pexels-photo-263017.jpeg?w=400&h=400&dpr=2&auto=compress&cs=tinysrgb',
+  desc: 'Delicios pescado Halibut en salsa de alcaparras y tomate',
+  price: 1724,
+  status: 'available'
+}, {
+  id: '2',
+  name: 'Langosta Trovadora',
+  image: 'https://cdn.pixabay.com/photo/2016/08/23/21/42/lobster-1615616_1280.jpg',
+  desc: 'Langosta tierna y deliciosa, que se derrite en su boca, son un éxito fantástico para un cena inolvidable.',
+  price: 3200,
+  status: 'available'
+}, {
+  id: '3',
+  name: 'Vieira de Mar',
+  image: 'http://i.istockimg.com/file_thumbview_approve/58624176/5/stock-photo-58624176-scallops-on-black-stone-plate.jpg',
+  desc: 'Deliciosas vieiras tenderizadas',
+  price: 1684,
+  status: 'unavailable'
+}, {
+  id: '4',
+  name: 'Mahi Mahi',
+  image: 'http://i.istockimg.com/file_thumbview_approve/12556651/5/stock-photo-12556651-mahimahi.jpg',
+  desc: 'Carne magra con un perfil de sabor suave y dulce, textura moderadamente firme y escamas grandes y húmedas.',
+  price: 1129,
+  status: 'available'
+}, {
+  id: '5',
+  name: 'Camarones 3 tiempos',
+  image: 'https://images.pexels.com/photos/236421/pexels-photo-236421.jpeg?w=200&h=200&dpr=2&auto=compress&cs=tinysrgb',
+  desc: 'Deliciosos camarones jumbo servidos en una base de salsa de cocktail',
+  price: 4234,
+  status: 'available'
+}, {
+  id: '6',
+  name: 'Salmon Teriyaki',
+  image: 'https://images.pexels.com/photos/36768/food-salmon-teriyaki-cooking.jpg?w=200&h=200&dpr=2&auto=compress&cs=tinysrgb',
+  desc: 'Delicioso salmón asado a la parrilla al estilo teriyaki',
+  price: 1453,
+  status: 'available'
+}, {
+  id: '7',
+  name: 'Oysters',
+  image: 'http://i.istockimg.com/file_thumbview_approve/58626682/5/stock-photo-58626682-fresh-oysters-on-a-black-stone-plate-top-view.jpg',
+  desc: 'Una ostra suave con un sabor salado dulce y un acabado limpio.',
+  price: 2543,
+  status: 'available'
+}, {
+  id: '8',
+  name: 'Mejillones',
+  image: 'http://i.istockimg.com/file_thumbview_approve/40450406/5/stock-photo-40450406-steamed-mussels.jpg',
+  desc: 'Los mejores mejillones de Costa Rica, acompañado de una salsa de ostiones.',
+  price: 425,
+  status: 'available'
+}, {
+  id: '9',
+  name: 'Jumbos Sweet Chili',
+  image: 'https://images.pexels.com/photos/699544/pexels-photo-699544.jpeg?w=200&h=200&dpr=2&auto=compress&cs=tinysrgb',
+  desc: 'Deliciosos camarones jumbo en nuestra deliciosa salsa chili.',
+  price: 2250,
+  status: 'available'
+}];
+
+/* harmony default export */ __webpack_exports__["a"] = (dishes);
+
+/***/ }),
+/* 356 */
+/*!***********************************************************************!*\
+  !*** ./node_modules/babel-runtime/helpers/objectWithoutProperties.js ***!
+  \***********************************************************************/
+/*! dynamic exports provided */
+/*! exports used: default */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+exports.__esModule = true;
+
+exports.default = function (obj, keys) {
+  var target = {};
+
+  for (var i in obj) {
+    if (keys.indexOf(i) >= 0) continue;
+    if (!Object.prototype.hasOwnProperty.call(obj, i)) continue;
+    target[i] = obj[i];
+  }
+
+  return target;
+};
+
+/***/ }),
+/* 357 */
+/*!***************************************!*\
+  !*** ./src/client/components/Dish.js ***!
+  \***************************************/
+/*! exports provided: default */
+/*! exports used: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_classCallCheck__ = __webpack_require__(/*! babel-runtime/helpers/classCallCheck */ 24);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_classCallCheck___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_classCallCheck__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_createClass__ = __webpack_require__(/*! babel-runtime/helpers/createClass */ 25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_createClass___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_createClass__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_possibleConstructorReturn__ = __webpack_require__(/*! babel-runtime/helpers/possibleConstructorReturn */ 28);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_possibleConstructorReturn___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_possibleConstructorReturn__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_inherits__ = __webpack_require__(/*! babel-runtime/helpers/inherits */ 30);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_inherits___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_inherits__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_react__ = __webpack_require__(/*! react */ 0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__utils_helpers__ = __webpack_require__(/*! ../utils/helpers */ 176);
+
+
+
+
+
+
+
+var Dish = function (_Component) {
+  __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_inherits___default()(Dish, _Component);
+
+  function Dish() {
+    __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_classCallCheck___default()(this, Dish);
+
+    return __WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_possibleConstructorReturn___default()(this, (Dish.__proto__ || Object.getPrototypeOf(Dish)).apply(this, arguments));
+  }
+
+  __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_createClass___default()(Dish, [{
+    key: 'render',
+    value: function render() {
+      var _props$details = this.props.details,
+          image = _props$details.image,
+          name = _props$details.name,
+          price = _props$details.price,
+          status = _props$details.status,
+          desc = _props$details.desc;
+
+      var isAvailable = status === 'available';
+      var buttonText = isAvailable ? 'Agregar a Orden' : 'Agotado!';
+      return __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(
+        'li',
+        { className: 'menu-dish' },
+        __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement('img', { src: image, alt: name }),
+        __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(
+          'h3',
+          { className: 'dish-name' },
+          name,
+          __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(
+            'span',
+            { className: 'price' },
+            Object(__WEBPACK_IMPORTED_MODULE_5__utils_helpers__["a" /* formatPrice */])(price)
+          )
+        ),
+        __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(
+          'p',
+          null,
+          desc
+        ),
+        __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(
+          'button',
+          { disabled: !isAvailable },
+          buttonText
+        )
+      );
+    }
+  }]);
+
+  return Dish;
+}(__WEBPACK_IMPORTED_MODULE_4_react__["Component"]);
+
+/* harmony default export */ __webpack_exports__["a"] = (Dish);
 
 /***/ })
 ],[79]);
