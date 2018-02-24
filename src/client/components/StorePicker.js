@@ -20,7 +20,7 @@ export default class StorePicker extends Component {
             this.storeInput = input
           }}
         />
-        <button type="submit">Visit Store →</button>
+        <button type="submit">Visitar Tienda →</button>
       </form>
     )
   }
