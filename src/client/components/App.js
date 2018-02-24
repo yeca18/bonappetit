@@ -10,6 +10,7 @@ import sampleDishes from '../../../sample-dishes'
 export default class App extends Component {
   state = {
     dishes: [],
+    order: {},
   }
 
   addDish = dish => {
@@ -25,6 +26,12 @@ export default class App extends Component {
     })
   }
 
+  addToOrder = dishId => {
+    const order = { ...this.state.order }
+    order[dishId] = order[dishId] + 1 || 1
+    this.setState({ order })
+  }
+
   render() {
     return (
       <div className="catch-of-the-day">
@@ -33,11 +40,16 @@ export default class App extends Component {
           <ul className="list-of-dishes">
             {/* Primero hacer el ejemplo sin key */}
             {this.state.dishes.map(({ id, ...details }) => (
-              <Dish key={id} details={details} />
+              <Dish
+                key={id}
+                details={details}
+                id={id}
+                addToOrder={this.addToOrder}
+              />
             ))}
           </ul>
         </div>
-        <Order />
+        <Order dishes={this.state.dishes} order={this.state.order} />
         <Inventory addDish={this.addDish} loadDishes={this.loadDishes} />
       </div>
     )

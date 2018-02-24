@@ -21,7 +21,7 @@ export default class AddDish extends Component {
         ref={form => {
           this.dishForm = form
         }}
-        className="fish-edit"
+        className="dish-edit"
         onSubmit={this.createDish}
       >
         <input

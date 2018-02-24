@@ -14,7 +14,12 @@ export default class Dish extends Component {
           <span className="price">{formatPrice(price)}</span>
         </h3>
         <p>{desc}</p>
-        <button disabled={!isAvailable}>{buttonText}</button>
+        <button
+          onClick={() => this.props.addToOrder(this.props.id)}
+          disabled={!isAvailable}
+        >
+          {buttonText}
+        </button>
       </li>
     )
   }
