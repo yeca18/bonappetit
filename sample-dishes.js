@@ -86,4 +86,4 @@ const dishes = [
   },
 ]
 
-export default dishes
+module.exports = dishes

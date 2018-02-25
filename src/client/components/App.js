@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import shortId from 'simple-id'
+import axios from 'axios'
 
 import Header from './Header'
 import Order from './Order'
@@ -11,6 +12,18 @@ export default class App extends Component {
   state = {
     dishes: [],
     order: {},
+  }
+
+  componentDidMount = () => {
+    axios
+      .get('/api/dishes')
+      .then(({ data: dishes }) => {
+        console.log(dishes)
+        this.setState({
+          dishes,
+        })
+      })
+      .catch(err => console.log(`Ohhh no ha ocurrido algo 😮 ${err}`))
   }
 
   addDish = dish => {
