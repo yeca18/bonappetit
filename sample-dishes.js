@@ -12,8 +12,7 @@ const dishes = [
   {
     id: '2',
     name: 'Langosta Trovadora',
-    image:
-      'https://cdn.pixabay.com/photo/2016/08/23/21/42/lobster-1615616_1280.jpg',
+    image: 'https://i.imgur.com/itn7QzG.png',
     desc:
       'Langosta tierna y deliciosa, que se derrite en su boca, son un éxito fantástico para un cena inolvidable.',
     price: 3200,
