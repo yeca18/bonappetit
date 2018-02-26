@@ -44,6 +44,10 @@ export default class App extends Component {
     this.setState({ dishes })
   }
 
+  updateDish = dishes => {
+    this.setState({ dishes })
+  }
+
   loadDishes = () => {
     this.setState({
       dishes: sampleDishes,
@@ -74,7 +78,12 @@ export default class App extends Component {
           </ul>
         </div>
         <Order dishes={this.state.dishes} order={this.state.order} />
-        <Inventory addDish={this.addDish} loadDishes={this.loadDishes} />
+        <Inventory
+          addDish={this.addDish}
+          loadDishes={this.loadDishes}
+          dishes={this.state.dishes}
+          updateDish={this.updateDish}
+        />
       </div>
     )
   }

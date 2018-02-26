@@ -39407,6 +39407,8 @@ var App = function (_Component) {
       dishes.push(__WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_extends___default()({}, dish, { id: __WEBPACK_IMPORTED_MODULE_8_simple_id___default()(5) }));
 
       _this.setState({ dishes: dishes });
+    }, _this.updateDish = function (dishes) {
+      _this.setState({ dishes: dishes });
     }, _this.loadDishes = function () {
       _this.setState({
         dishes: __WEBPACK_IMPORTED_MODULE_14__sample_dishes___default.a
@@ -39447,7 +39449,12 @@ var App = function (_Component) {
           )
         ),
         __WEBPACK_IMPORTED_MODULE_7_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_11__Order__["a" /* default */], { dishes: this.state.dishes, order: this.state.order }),
-        __WEBPACK_IMPORTED_MODULE_7_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_12__Inventory__["a" /* default */], { addDish: this.addDish, loadDishes: this.loadDishes })
+        __WEBPACK_IMPORTED_MODULE_7_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_12__Inventory__["a" /* default */], {
+          addDish: this.addDish,
+          loadDishes: this.loadDishes,
+          dishes: this.state.dishes,
+          updateDish: this.updateDish
+        })
       );
     }
   }]);
@@ -52378,17 +52385,26 @@ var Order = function Order(props) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_classCallCheck__ = __webpack_require__(/*! babel-runtime/helpers/classCallCheck */ 37);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_classCallCheck___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_classCallCheck__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_createClass__ = __webpack_require__(/*! babel-runtime/helpers/createClass */ 38);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_createClass___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_createClass__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_possibleConstructorReturn__ = __webpack_require__(/*! babel-runtime/helpers/possibleConstructorReturn */ 39);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_possibleConstructorReturn___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_possibleConstructorReturn__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_inherits__ = __webpack_require__(/*! babel-runtime/helpers/inherits */ 40);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_inherits___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_inherits__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_react__ = __webpack_require__(/*! react */ 3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__AddDish__ = __webpack_require__(/*! ./AddDish */ 379);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_defineProperty__ = __webpack_require__(/*! babel-runtime/helpers/defineProperty */ 384);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_defineProperty___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_defineProperty__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_extends__ = __webpack_require__(/*! babel-runtime/helpers/extends */ 216);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_extends___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_extends__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_toConsumableArray__ = __webpack_require__(/*! babel-runtime/helpers/toConsumableArray */ 224);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_toConsumableArray___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_toConsumableArray__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_classCallCheck__ = __webpack_require__(/*! babel-runtime/helpers/classCallCheck */ 37);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_classCallCheck___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_classCallCheck__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_createClass__ = __webpack_require__(/*! babel-runtime/helpers/createClass */ 38);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_createClass___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_createClass__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_babel_runtime_helpers_possibleConstructorReturn__ = __webpack_require__(/*! babel-runtime/helpers/possibleConstructorReturn */ 39);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_babel_runtime_helpers_possibleConstructorReturn___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_babel_runtime_helpers_possibleConstructorReturn__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_babel_runtime_helpers_inherits__ = __webpack_require__(/*! babel-runtime/helpers/inherits */ 40);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_babel_runtime_helpers_inherits___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_babel_runtime_helpers_inherits__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_react__ = __webpack_require__(/*! react */ 3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__AddDish__ = __webpack_require__(/*! ./AddDish */ 379);
+
+
+
 
 
 
@@ -52398,37 +52414,125 @@ var Order = function Order(props) {
 
 
 var Inventory = function (_Component) {
-  __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_inherits___default()(Inventory, _Component);
+  __WEBPACK_IMPORTED_MODULE_6_babel_runtime_helpers_inherits___default()(Inventory, _Component);
 
   function Inventory() {
-    __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_classCallCheck___default()(this, Inventory);
+    var _ref;
 
-    return __WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_possibleConstructorReturn___default()(this, (Inventory.__proto__ || Object.getPrototypeOf(Inventory)).apply(this, arguments));
+    var _temp, _this, _ret;
+
+    __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_classCallCheck___default()(this, Inventory);
+
+    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    return _ret = (_temp = (_this = __WEBPACK_IMPORTED_MODULE_5_babel_runtime_helpers_possibleConstructorReturn___default()(this, (_ref = Inventory.__proto__ || Object.getPrototypeOf(Inventory)).call.apply(_ref, [this].concat(args))), _this), _this.handleChange = function (e, dishId) {
+      var _e$target = e.target,
+          name = _e$target.name,
+          value = _e$target.value;
+
+      var dishes = [].concat(__WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_toConsumableArray___default()(_this.props.dishes));
+      var dishIndex = dishes.findIndex(function (dish) {
+        return dish.id === dishId;
+      });
+      dishes[dishIndex] = __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_extends___default()({}, dishes[dishIndex], __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_defineProperty___default()({}, name, value));
+      _this.props.updateDish(dishes);
+    }, _this.renderInventoryItem = function (_ref2) {
+      var name = _ref2.name,
+          price = _ref2.price,
+          id = _ref2.id,
+          status = _ref2.status,
+          desc = _ref2.desc,
+          image = _ref2.image;
+      return __WEBPACK_IMPORTED_MODULE_7_react___default.a.createElement(
+        'div',
+        { className: 'dish-edit', key: id },
+        __WEBPACK_IMPORTED_MODULE_7_react___default.a.createElement('input', {
+          type: 'text',
+          name: 'name',
+          onChange: function onChange(e) {
+            return _this.handleChange(e, id);
+          },
+          value: name,
+          placeholder: 'Nombre del Platillo'
+        }),
+        __WEBPACK_IMPORTED_MODULE_7_react___default.a.createElement('input', {
+          type: 'text',
+          name: 'price',
+          onChange: function onChange(e) {
+            return _this.handleChange(e, id);
+          },
+          value: price,
+          placeholder: 'Precio del Platillo'
+        }),
+        __WEBPACK_IMPORTED_MODULE_7_react___default.a.createElement(
+          'select',
+          {
+            type: 'text',
+            name: 'status',
+            onChange: function onChange(e) {
+              return _this.handleChange(e, id);
+            },
+            value: status
+          },
+          __WEBPACK_IMPORTED_MODULE_7_react___default.a.createElement(
+            'option',
+            { value: 'available' },
+            'Disponible'
+          ),
+          __WEBPACK_IMPORTED_MODULE_7_react___default.a.createElement(
+            'option',
+            { value: 'unavailable' },
+            'Agotado!'
+          )
+        ),
+        __WEBPACK_IMPORTED_MODULE_7_react___default.a.createElement('textarea', {
+          type: 'text',
+          name: 'desc',
+          onChange: function onChange(e) {
+            return _this.handleChange(e, id);
+          },
+          value: desc,
+          placeholder: 'Descripci\xF3n del Platillo'
+        }),
+        __WEBPACK_IMPORTED_MODULE_7_react___default.a.createElement('input', {
+          type: 'text',
+          name: 'image',
+          onChange: function onChange(e) {
+            return _this.handleChange(e, id);
+          },
+          value: image,
+          placeholder: 'Imagen del Platillo'
+        })
+      );
+    }, _temp), __WEBPACK_IMPORTED_MODULE_5_babel_runtime_helpers_possibleConstructorReturn___default()(_this, _ret);
   }
 
-  __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_createClass___default()(Inventory, [{
+  __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_createClass___default()(Inventory, [{
     key: 'render',
     value: function render() {
-      return __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(
+      return __WEBPACK_IMPORTED_MODULE_7_react___default.a.createElement(
         'div',
-        null,
-        __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(
+        { style: { overflowY: 'scroll' } },
+        __WEBPACK_IMPORTED_MODULE_7_react___default.a.createElement(
           'h2',
           null,
           'Inventario'
         ),
-        __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_5__AddDish__["a" /* default */], { addDish: this.props.addDish }),
-        __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(
+        __WEBPACK_IMPORTED_MODULE_7_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_8__AddDish__["a" /* default */], { addDish: this.props.addDish }),
+        __WEBPACK_IMPORTED_MODULE_7_react___default.a.createElement(
           'button',
           { onClick: this.props.loadDishes },
           'Cargar Platillos'
-        )
+        ),
+        this.props.dishes.map(this.renderInventoryItem)
       );
     }
   }]);
 
   return Inventory;
-}(__WEBPACK_IMPORTED_MODULE_4_react__["Component"]);
+}(__WEBPACK_IMPORTED_MODULE_7_react__["Component"]);
 
 /* harmony default export */ __webpack_exports__["a"] = (Inventory);
 
@@ -52832,6 +52936,41 @@ var NotFound = function NotFound() {
 };
 
 /* harmony default export */ __webpack_exports__["a"] = (NotFound);
+
+/***/ }),
+/* 384 */
+/*!**************************************************************!*\
+  !*** ./node_modules/babel-runtime/helpers/defineProperty.js ***!
+  \**************************************************************/
+/*! dynamic exports provided */
+/*! exports used: default */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+exports.__esModule = true;
+
+var _defineProperty = __webpack_require__(/*! ../core-js/object/define-property */ 239);
+
+var _defineProperty2 = _interopRequireDefault(_defineProperty);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+exports.default = function (obj, key, value) {
+  if (key in obj) {
+    (0, _defineProperty2.default)(obj, key, {
+      value: value,
+      enumerable: true,
+      configurable: true,
+      writable: true
+    });
+  } else {
+    obj[key] = value;
+  }
+
+  return obj;
+};
 
 /***/ })
 ],[160]);
