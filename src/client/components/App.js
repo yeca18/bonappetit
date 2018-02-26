@@ -18,12 +18,23 @@ export default class App extends Component {
     axios
       .get('/api/dishes')
       .then(({ data: dishes }) => {
-        console.log(dishes)
+        const localStorageRef = localStorage.getItem(
+          `order-${this.props.match.params.id}`
+        )
+
         this.setState({
           dishes,
+          order: localStorageRef ? JSON.parse(localStorageRef) : [],
         })
       })
       .catch(err => console.log(`Ohhh no ha ocurrido algo 😮 ${err}`))
+  }
+
+  componentWillUpdate = (nextProps, nextState) => {
+    localStorage.setItem(
+      `order-${this.props.match.params.id}`,
+      JSON.stringify(nextState.order)
+    )
   }
 
   addDish = dish => {

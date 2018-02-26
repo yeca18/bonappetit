@@ -39391,13 +39391,17 @@ var App = function (_Component) {
       __WEBPACK_IMPORTED_MODULE_9_axios___default.a.get('/api/dishes').then(function (_ref2) {
         var dishes = _ref2.data;
 
-        console.log(dishes);
+        var localStorageRef = localStorage.getItem('order-' + _this.props.match.params.id);
+
         _this.setState({
-          dishes: dishes
+          dishes: dishes,
+          order: localStorageRef ? JSON.parse(localStorageRef) : []
         });
       }).catch(function (err) {
         return console.log('Ohhh no ha ocurrido algo \uD83D\uDE2E ' + err);
       });
+    }, _this.componentWillUpdate = function (nextProps, nextState) {
+      localStorage.setItem('order-' + _this.props.match.params.id, JSON.stringify(nextState.order));
     }, _this.addDish = function (dish) {
       var dishes = [].concat(__WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_toConsumableArray___default()(_this.state.dishes));
       dishes.push(__WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_extends___default()({}, dish, { id: __WEBPACK_IMPORTED_MODULE_8_simple_id___default()(5) }));
