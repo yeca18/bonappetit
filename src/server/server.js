@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const express = require('express');
 
 const app = express();
@@ -28,19 +29,31 @@ app.get('/yeca/:name', (req, res) => {
   res.json({ name: 'Mi nombre es Yessica' });
 });
 
+=======
+const express = require('express')
+const { join } = require('path')
 
-app.get('/brayan', (req, res) => {
-  res.json({ name: 'Brayan', username: 'bingtrav'})
+const dishes = require('../../sample-dishes')
+
+const app = express()
+>>>>>>> upstream/master
+
+app.use(express.static(join(__dirname, '..', '..', '/public')))
+
+// Importante: las rutas del API que devuelven informacion van de primero que la que devuelve el html
+app.get('/api/dishes', (req, res) => {
+  res.json(dishes)
 })
 
-app.get('/myselfP/:name/:username', (req, res) => {
-  res.json({ name: req.params.name, username: req.params.username})
-})
-
-app.get('/myselfQ', (req, res) => {
-  res.json({ name: req.query.name, username: req.query.username})
+app.get('*', (req, res) => {
+  res.sendFile(join(__dirname, '..', '..', '/public/index.html'))
 })
 
 app.listen(3005, () => {
+<<<<<<< HEAD
   console.log('Server running on port 3005');
 });
+=======
+  console.log('Server running on port 3005')
+})
+>>>>>>> upstream/master
